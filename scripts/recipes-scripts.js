@@ -62,7 +62,6 @@ let data = [
     }
 ];
 
-
 function add_data_to_element(num) {
     document.getElementById("title").innerText = data[num].title;
     document.getElementById("image").src = "../images/" + data[num].img;

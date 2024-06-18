@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ODIN-RECIPES</title>
     <link rel="stylesheet" href="./styles/index-styles.css">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/png" sizes="32x32">
 </head>
 
 <body>
@@ -13,26 +14,33 @@
         <header>
             <h1>Odin Recipes</h1>
         </header>
+        <ul>
+            <li class="item">
+                <a onclick="updateLocalStorage(0)" href="./recipes/recipes-pages.html">
+                    <img src="./images/57783-emilys-famous-hash-browns-DDMFS-4x3-ce2a6ec1178640258faf601d6848ff11.webp"
+                        alt="">
+                    <span>Homemade Crispy Hash
+                        Browns</span>
+                </a>
+            </li>
+            <li class="item">
+                <a onclick="updateLocalStorage(1)" href="./recipes/recipes-pages.html">
+                    <img src="./images/3425-4f0b3375c42e4f0dbb4875fadaba90ab.webp" alt="">
+                    <span>Dad's
+                        Double Whole Grain
+                        Pancakes</span>
+                </a>
+            </li>
+            <li class="item">
+                <a onclick="updateLocalStorage(2)" href="./recipes/recipes-pages.html">
+                    <img src="./images/238423-dads-creamy-cucumber-salad-DDMFS-4x3-36063371e89e463d91c5282ae0873779.webp"
+                        alt="">
+                    <span>Dad's Creamy
+                        Cucumber Salad</span>
+                </a>
+            </li>
+        </ul>
     </div>
-    <ul>
-        <div class="item">
-            <img src="./images/57783-emilys-famous-hash-browns-DDMFS-4x3-ce2a6ec1178640258faf601d6848ff11.webp" alt="">
-            <a onclick="updateLocalStorage(0)" href="./recipes/recipes-pages.html"><span>Homemade Crispy Hash
-                    Browns</span></a>
-        </div>
-        <div class="item">
-            <img src="./images/3425-4f0b3375c42e4f0dbb4875fadaba90ab.webp" alt="">
-            <a onclick="updateLocalStorage(1)" href="./recipes/recipes-pages.html"><span>Dad's
-                    Double Whole Grain
-                    Pancakes</span></a>
-        </div>
-        <div class="item">
-            <img src="./images/238423-dads-creamy-cucumber-salad-DDMFS-4x3-36063371e89e463d91c5282ae0873779.webp"
-                alt="">
-            <a onclick="updateLocalStorage(2)" href="./recipes/recipes-pages.html"><span>Dad's Creamy
-                    Cucumber Salad</span></a>
-        </div>
-    </ul>
     <script>
         function updateLocalStorage(num) {
             if (typeof (Storage) !== 'underfined') {
