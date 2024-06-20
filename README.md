@@ -2,9 +2,9 @@
 The project used data from [Allrecipes](https://www.allrecipes.com/) <br />
 
 **Test in browser (localhost, file:///):** <br />
-```
-BUG 🔎🐞: 1
-```
+> [!CAUTION]
+> BUG 🔎🐞: 1
+
 | Browser | localhost | file:/// |                                                                                                 detail |
 | ------- | :-------: | -------: | -----------------------------------------------------------------------------------------------------: |
 | Chrome  |     ✅     |        ✅ |                                                                                                        |
